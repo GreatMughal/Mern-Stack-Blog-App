@@ -27,7 +27,7 @@ const Register = () => {
             }
         } catch (error) {
             console.log(error);
-            alert('Failed to register')
+            toast.error('Failed to register')
 
         }
 
