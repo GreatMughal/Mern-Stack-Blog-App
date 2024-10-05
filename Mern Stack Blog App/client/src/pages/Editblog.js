@@ -56,7 +56,6 @@ const Createblog = () => {
             console.log(error);
         }
     };
-    console.log(blog);
 
     return (
         <div className='w-full px-7 min-h-screen bg-gray-900 text-gray-400'>
