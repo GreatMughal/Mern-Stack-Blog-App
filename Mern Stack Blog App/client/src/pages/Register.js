@@ -22,7 +22,7 @@ const Register = () => {
         try {
             const { data } = await axios.post("/api/v1/user/register", { username: inputs.username, email: inputs.email, password: inputs.password })
             if (data.success) {
-                toast.succes('Registration successful')
+                toast.success('Registration successful')
                 navigate('/login')
             }
         } catch (error) {
